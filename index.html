@@ -1,1 +1,353 @@
-"Ajout du fichier index.html pour GitHub Pages"
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Daouda Salemberé</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #020617;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background: #020617;
+  padding: 10px;
+  top: 0;
+  text-align: center;
+}
+
+nav a {
+  color: #38bdf8;
+  margin: 10px;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  padding: 100px 20px 50px;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  object-fit: cover;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+section {
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px 0;
+  transition: 0.4s;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: #38bdf8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#about">À propos</a>
+  <a href="#projects">Projets</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <img class="img1" src="WhatsApp Image 2026-03-31 at 15.33.39.jpeg" class="profile-img">
+  <h1>Salemberé RayimWende Daouda</h1>
+  <p>Développeur Web | Étudiant en Informatique</p>
+</header>
+
+<section id="about">
+  <h2>À propos</h2>
+  <div class="card">
+    Étudiant en informatique, je m’intéresse particulièrement au développement web.
+    J’aime concevoir des applications simples, efficaces et utiles.  
+    <br><br>
+    À travers plusieurs projets académiques, j’ai développé des compétences solides
+    en JavaScript, en manipulation du DOM et en gestion des données côté client.
+  </div>
+</section>
+
+<section>
+  <h2>Compétences</h2>
+  <div class="card">
+    HTML / CSS <br>
+    JavaScript (DOM, événements) <br>
+    localStorage <br>
+    CRUD <br>
+    Logique algorithmique
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projets</h2>
+
+  <div class="projects">
+
+    <!-- Exemple projet -->
+    <div class="card">
+      <h3>Creation d'un systeme web de gestion d'un parking scolaire</h3>
+      <a href="https://daoudasalembere.github.io/gestion parking" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/gestion parking" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Systeme de presence</h3>
+      <a href="https://daoudasalembere.github.io/systeme de presence" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/systeme de presence " target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Site American Corner</h3>
+      <a href="https://daoudasalembere.github.io/American Corner" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/American Corner" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Depot de devoir</h3>
+      <a href="https://daoudasalembere.github.io/Depot de devoir" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/depot de devoir" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Emploi du temps</h3>
+      <a href="https://daoudasalembere.github.io/emploi du temps" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/emploi du temps" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Restaurant universitaire</h3>
+      <a href="https://daoudasalembere.github.io/Restaurant universitaire" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/Restaurant universitaire" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+
+    </div>
+
+    <div class="card">
+      <h3>Jeu web</h3>
+      <a href="https://daoudasalembere.github.io/jeu web" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/jeu web" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Gestion des stages</h3>
+      <p>Application web permettant de gérer les demandes de stage avec validation et suivi.</p>
+      <a href="https://daoudasalembere.github.io/gestion des stages" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/gestion des stages" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Inscriptions universitaires</h3>
+      <a href="https://daoudasalembere.github.io/Inscriptions universitaire" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/Inscriptions universitaire" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    
+    </div>
+
+    <div class="card">
+      <h3>Bibliothèque</h3>
+      <p>Gestion des livres, emprunts et retours avec stockage local.</p>
+      <a href="https://daoudasalembere.github.io/Bibliothèque" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/Bibliothèque" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Gestion des notes</h3>
+      <a href="https://daoudasalembere.github.io/gestion des notes" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/gestion des notes" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>E-learning</h3>
+      <p>Plateforme de cours avec suivi des apprenants.</p>
+      <a href="https://daoudasalembere.github.io/E-learning" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/E-learning" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Ressources humaines</h3>
+      <a href="https://daoudasalembere.github.io/Ressources humaines" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/Ressources humaines" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Evenements</h3>
+      <a href="https://daoudasalembere.github.io/Evenements" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/Evenements" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Application d'apprentissage</h3>
+      <a href="https://daoudasalembere.github.io/applications d'apprentissage" target="_blank">
+        <button>Voir Application</button>
+      </a>
+
+      <a href="https://github.com/daoudasalembere/applications d'apprentissage" target="_blank">
+        <button>Code GitHub</button>
+      </a>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    Email :
+    <button onclick="window.location.href"='mailto:daoudasalembere@gmail.com'">Me contacter</button><br><br>
+
+    Email :
+    <a href="mailto:daoudasalembere@gmail.com">daoudasalembere@gmail.com</a><br><br>
+     
+    GitHub :
+    <a href="https://github.com/daoudasalembere.github.io" target="_blank">github.io/daoudasalembere.github.io</a><br><br>
+
+    LinkedIn :
+    <a href="https://linkedlin.com/in/tonprofil" target="_blank">linkedlin.com/in/tonprofil</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 - Daouda Salemberé
+</footer>
+
+<script>
+function ouvrir(lien) {
+  window.location.href = lien;
+}
+
+const cards = document.querySelectorAll('.card');
+
+window.addEventListener('scroll', () => {
+  cards.forEach(card => {
+    const position = card.getBoundingClientRect().top;
+    if (position < window.innerHeight - 50) {
+      card.classList.add('visible');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
